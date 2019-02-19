@@ -1,0 +1,51 @@
+<div class="container center animted fadeIn fast">
+  <header>
+    <h1>PROYECTO <small>ALDO</small></h1>
+    <hr>
+  </header>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container animted fadeIn">
+      <h1 class="display-4">Informe sobre las emisiones de CO2 en el mundo</h1>
+      <p class="lead">La Fundación Empresa y Clima, socia de Foro Nuclear, ha presentado el
+        "Informe de situación de las emisiones de CO2 en el mundo. Edición 2015" en el que
+        recopila datos oficiales de los años 2014 y 2015. Se trata de su octava publicación
+        sobre las Emisiones de Gases de Efecto Invernadero (GEI) en todo el mundo.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container animted fadeIn ">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Emisiones</h1>
+      <p class="lead">En ls siguiente tabla se muestra las emisiones de CO2 por año desde 1960 hasta el 2014</p>
+
+    </div>
+  </div>
+  <hr>
+  <table class="table table-bordered table-sm animted fadeIn">
+    <thead>
+      <tr>
+        <th scope="col">Emision</th>
+        <th scope="col">Año</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor=" let emi of arr">
+        <td>{{emi.emi}}</td>
+        <td>{{emi.anio}}</td>
+      </tr>
+    </tbody>
+
+  </table>
+</div>
+<div class=" container animted fadeIn " >
+  <app-linea></app-linea>
+</div>
+<footer class="footer bg-dark">
+  <div class="container text-center">
+    <p>&copy; 2019 ALDO OSMAR ORTIZ BALLONA.</p>
+  </div>
+
+</footer>
