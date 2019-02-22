@@ -1,4 +1,4 @@
-# Proyecto web utilizanco spring boot y angular como cliente
+# Proyecto web utilizando spring boot y angular como cliente
 
 NOTAS DE USO GENERAL
 ----------------------------
